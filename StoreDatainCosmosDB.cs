@@ -8,9 +8,9 @@ namespace ServiceBusFunctionDemo
 {
     class StoreDataInCosmosDB
     {
-        private static readonly string EndpointUri = "https://familyaccount.documents.azure.com:443/";
+        private static readonly string EndpointUri = "<cosmos_uri>";
 
-        private static readonly string PrimaryKey = "ZsNqUMiWyS0aLdjxYE4DCWaAmR2lwyXvQGQD9cGlgLNdbOHJaNiImpyrxOkCeBm0WYYkoFKhJVUwWwZP915iQA==";
+        private static readonly string PrimaryKey = "<cosmos_primary_key>";
 
         private CosmosClient cosmosClient;
 
